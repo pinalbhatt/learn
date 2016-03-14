@@ -1,0 +1,35 @@
+
+#siteHeader {
+    font-family: Quicksand, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+.navbar-brand {
+    text-shadow: 2px 2px 15px #000000 !important;
+    font-family: "Helvetica Neue";
+    font-size: larger;
+}
+.slides {
+    margin-top: 0 !important;
+}
+.ttfNone {
+    text-transform: none !important;
+}
+.ltxt {
+    text-align: left;
+}
+.rtxt {
+    text-align: right;
+}
+.jtxt {
+    text-align: justify;
+}
+
+
+
+body:after {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    margin: 0;
+    content: url("/tutorials/ES6-With-TypeScript/assets/imgs/logo_small.png");
+}
