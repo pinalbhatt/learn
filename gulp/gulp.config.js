@@ -1,8 +1,10 @@
 "use strict";
 
-var BuildsFolder = "./build/";
+var buildFolder = "./build/";
 var gulpFolder = "./gulp/";
+var npmFolder = "./node_modules";
+var revealJSFolder = "";
 
 module.exports = {
-
+	revealJS: ""
 };
